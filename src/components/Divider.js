@@ -36,7 +36,6 @@ const Divider = ({ thoughtsRanked }) => {
   useEffect(setStyle)
 
   return <div ref={dividerSetWidth} style={{
-    margin: '-2px -4px -5px',
     maxWidth: '100%',
     padding: '10px 4px 16px',
     position: 'relative',

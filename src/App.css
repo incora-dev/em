@@ -2353,7 +2353,7 @@ code, .code {
 }
 
 .divider-container {
-  margin-top: 5px;
+  margin: 5px -4px -5px;
 }
 
 .editing > .thought-container > .thought > .divider-container > .divider {
@@ -2456,6 +2456,10 @@ code, .code {
   vertical-align: top;
   width: 100%;
   padding-bottom: 15px;
+}
+
+.table-view .divider-container {
+  margin: -2px -4px -5px -0.66rem;
 }
 
 /* nested table */
